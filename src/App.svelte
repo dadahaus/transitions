@@ -119,7 +119,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 100vh;
+    // width: 100vw;
     font-family: ProximaVara-Roman;
     article {
       max-width: 50ch;
