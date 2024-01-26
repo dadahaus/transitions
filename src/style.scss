@@ -1,5 +1,10 @@
 
-  
+@font-face {
+  -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-display: swap;
+  font-family: ProximaVara-Roman;
+  font-weight: 100 1000;
+  src: url(chrome-extension://cipccbpjpemcnijhjcdjmkjhmhniiick/static/fonts/proxima-vara-roman-black.f99ab2034eea98d11ef4.woff2) format("woff2"),url(chrome-extension://cipccbpjpemcnijhjcdjmkjhmhniiick/static/fonts/proxima-vara-roman-black.fe9b55be9cb49a68107a.woff) format("woff")
+}
   a {
     font-weight: 500;
     color: #646cff;
@@ -11,6 +16,7 @@
   
   html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -19,12 +25,12 @@
     margin: 0;
     display: flex;
     place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
-    max-width: 1040px;
-    overflow: hidden;
+    width:fit-content;
+    
   }
-  
+  section{
+    width: 100%;
+  }
   h1 {
     font-size: 3.2em;
     line-height: 1.1;

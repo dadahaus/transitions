@@ -99,6 +99,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    
   
   }
 
@@ -118,8 +119,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 100vw;
+
+    font-family: ProximaVara-Roman;
     article {
       max-width: 50ch;
     }
@@ -136,6 +137,9 @@
     to {
     }
     0% {
+      opacity: 0;
+    }
+    35%{
       opacity: 0;
     }
     70% {
