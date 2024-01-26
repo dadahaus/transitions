@@ -138,12 +138,10 @@
     0% {
       opacity: 0;
     }
-    60% {
+    70% {
       opacity: 1;
     }
-    80% {
-      opacity: 0;
-    }
+   
     100% {
       opacity: 0;
     }
